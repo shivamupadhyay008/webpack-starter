@@ -1,0 +1,36 @@
+{
+	"name": "vanila-js-app-starter",
+	"version": "1.0.0",
+	"description": "this vanilla.js app  using webpack",
+	"main": "index.js",
+	"babel": {
+		"presets": [
+			"@babel/preset-env"
+		]
+	},
+	"browserslist": "> 0.25%, not dead",
+	"scripts": {
+		"start": "webpack serve  --hot-only --open ",
+		"build": "webpack",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "Shivam upadhyay",
+	"license": "MIT",
+	"dependencies": {
+		"@babel/core": "^7.14.3",
+		"@babel/preset-env": "^7.14.2",
+		"babel-loader": "^8.2.2",
+		"css-loader": "^5.2.6",
+		"html-webpack-plugin": "^5.3.1",
+		"lodash": "^4.17.21",
+		"style-loader": "^2.0.0",
+		"webpack": "^5.38.1",
+		"webpack-cli": "^4.7.0",
+		"webpack-dev-server": "^3.11.2"
+	},
+	"devDependencies": {
+		"babel-eslint": "^10.1.0",
+		"eslint": "^7.2.0",
+		"eslint-loader": "^4.0.2"
+	}
+}
